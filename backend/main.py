@@ -110,6 +110,7 @@ async def user_forgot_password(request: Request):
     print("/login/forgot_password/:" +str(userdata))
 
     OTP = forget_password(userdata["email"])
+    print("#####Generated OTP: "+str(OTP))
 
     return {"Status":"Forget Password OTP Success", "OTP": OTP }
 
@@ -118,7 +119,9 @@ async def user_forgot_password(request: Request):
     userdata = await request.json()
     print("/login/forgot_password/:" +str(userdata))
 
-    if update_password(userdata["email"], userdata["OTP"], userdata["new_password"]) == False: return FORGOT_PASSWORD_OPERATION_FAILED
+    if update_password(userdata["email"], userdata["OTP"], userdata["new_password"]) == False: 
+        print("|DEBUG: error in forget password credentials.")
+        return FORGOT_PASSWORD_OPERATION_FAILED
 
     return {"Status":"Forget Password Success", "Next Action": "Please Login now." }
 
