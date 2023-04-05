@@ -47,7 +47,7 @@ export class LoginComponent {
 
         this.loginStatus = data.Status;
 
-        this.router.navigate(['teacher-dashboard']);
+        this.router.navigate(['menu']);
       }
     })
     .catch((err)=>{
