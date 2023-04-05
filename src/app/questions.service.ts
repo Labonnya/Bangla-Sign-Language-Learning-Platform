@@ -12,7 +12,8 @@ export class QuestionsService {
 
   public apiUrl = "http://localhost:8000";
 
-  questions: Question[]=[]
+  questions: Question[]=[];
+  score: number = 0;
   
   getQuestions(){
     // return this.http.get<Question[]>(`{this.apiUrl}/getquestions`);
@@ -21,4 +22,20 @@ export class QuestionsService {
     });
     
   }
+
+  getRandomQuestions(): Question[]{
+    return this.questions;
+}
+
+  setRandomQuestions(questions: Question[]): void{
+      this.questions=questions;
+  }
+
+  getScore(): number{
+      return this.score;
+  }
+
+  setScore(score: number): void{
+      this.score=score;
+}
 }

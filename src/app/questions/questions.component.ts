@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Question, Quiz, Answers } from '../quiz.model';
 import { QuestionsService } from '../questions.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-questions',
@@ -10,7 +11,7 @@ import { QuestionsService } from '../questions.service';
 
 export class QuestionsComponent implements OnInit{
  
-   constructor(private questionsService: QuestionsService) { }
+   constructor(private questionsService: QuestionsService, private router: Router) { }
 
    questions: Question[] = [];
    randomQuestions: Question[] = [];
@@ -44,6 +45,10 @@ export class QuestionsComponent implements OnInit{
         this.score++;
         }
    }
+   this.questionsService.setRandomQuestions(this.randomQuestions);
+   this.questionsService.setScore(this.score);
+   this.router.navigate(["answers"]);
+
   }
 }
 

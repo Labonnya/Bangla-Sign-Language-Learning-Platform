@@ -16,6 +16,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { RegisterComponent } from './register/register.component';
 import { TeacherDashboardComponent } from './teacher-dashboard/teacher-dashboard.component';
 import { QuestionsComponent } from './questions/questions.component';
+import { AnswersComponent } from './answers/answers.component';
 
 const routes: Routes = [
   {path:"", component:HomeComponent},
@@ -32,7 +33,8 @@ const routes: Routes = [
   {path: "otp-verification", component: OtpVerificationComponent},
   {path: "forgot-password", component: ForgotPasswordComponent},
   {path: "teacher-dashboard", component: TeacherDashboardComponent},
-  {path: "quiz", component: QuestionsComponent}
+  {path: "quiz", component: QuestionsComponent},
+  {path: "answers", component: AnswersComponent}
 ];
 
 @NgModule({
