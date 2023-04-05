@@ -9,41 +9,41 @@ CREATE TABLE IF NOT EXISTS questions (
 );
 
 insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
-values( 1, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
+values( 1, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/12.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
+'../../assets/16.jpg', '../../assets/12.jpg');
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 2, '১ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/1.jpg', '../../assets/2.jpg', '../../assets/3.jpg', 
+'../../assets/4.jpg', '../../assets/1.jpg');
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 3, '৭ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/5.jpg', '../../assets/6.jpg', '../../assets/7.jpg', 
+'../../assets/8.jpg', '../../assets/7.jpg');
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 4, '৯ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/9.jpg', '../../assets/10.jpg', '../../assets/11.jpg', 
+'../../assets/12.jpg', '../../assets/9.jpg');
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 5, '১৩ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
 '../../assets/16.jpg', '../../assets/13.jpg');
 
 insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
-values( 2, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
-'../../assets/16.jpg', '../../assets/13.jpg');
+values( 6, '১৪ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/17.jpg', '../../assets/18.jpg', '../../assets/19.jpg', 
+'../../assets/20.jpg', '../../assets/20.jpg');
 
 insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
-values( 3, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
-'../../assets/16.jpg', '../../assets/13.jpg');
+values( 7, '১৬ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/21.jpg', '../../assets/20.jpg', '../../assets/15.jpg', 
+'../../assets/16.jpg', '../../assets/21.jpg');
 
 insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
-values( 4, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
-'../../assets/16.jpg', '../../assets/13.jpg');
+values( 8, 'আম এর জন্য ইশারা ভাষা কোনটি?', '../../assets/21.jpg', '../../assets/20.jpg', '../../assets/19.jpg', 
+'../../assets/18.jpg', '../../assets/20.jpg');
 
 insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
-values( 5, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
-'../../assets/16.jpg', '../../assets/13.jpg');
+values( 9, '৮ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/1.jpg', '../../assets/2.jpg', '../../assets/8.jpg', 
+'../../assets/16.jpg', '../../assets/8.jpg');
 
 insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
-values( 6, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
-'../../assets/16.jpg', '../../assets/13.jpg');
-
-insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
-values( 7, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
-'../../assets/16.jpg', '../../assets/13.jpg');
-
-insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
-values( 8, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
-'../../assets/16.jpg', '../../assets/13.jpg');
-
-insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
-values( 9, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
-'../../assets/16.jpg', '../../assets/13.jpg');
-
-insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
-values( 10, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
-'../../assets/16.jpg', '../../assets/13.jpg');
+values( 10, '১৮ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/5.jpg', '../../assets/6.jpg', '../../assets/3.jpg', 
+'../../assets/4.jpg', '../../assets/4.jpg');
