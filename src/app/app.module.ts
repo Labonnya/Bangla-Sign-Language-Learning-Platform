@@ -25,6 +25,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { InvalidCredentialsComponent } from './login/invalid-credentials/invalid-credentials.component';
 import { QuestionsComponent } from './questions/questions.component';
+import { AnswersComponent } from './answers/answers.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { QuestionsComponent } from './questions/questions.component';
     ProfileComponent,
     ForgotPasswordComponent,
     InvalidCredentialsComponent,
-    QuestionsComponent
+    QuestionsComponent,
+    AnswersComponent
   ],
   imports: [
     BrowserModule,
