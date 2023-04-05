@@ -1,0 +1,25 @@
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<div class="container">
+    <h2>OTP Verification : BSL</h2>
+    <form>
+      <div class="form-group">
+        <label>OTP Verification Code:</label>
+        <input type="text" class="form-control" name="submitted_otp" [(ngModel)]="submitted_otp">
+      </div>
+      <div *ngIf="FORGOT_PASSWORD_PROCESS==true" class="form-group">
+        <label>Set new Password:</label>
+        <input type="text" class="form-control" name="new_password" [(ngModel)]="new_password">
+      </div>
+    </form>
+    <button (click)="verifySubmittedOTP()">Register</button> 
+  </div>
+
+

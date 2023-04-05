@@ -1,0 +1,27 @@
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <a class="navbar-brand p-5" href="#"><img src="../assets/logo.PNG" height="75px" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active mx-5">
+            <a class="nav-link" href="#"><strong>Home</strong></a>
+          </li>
+          <li class="nav-item mx-5">
+            <a class="nav-link" href="#"><strong>Quiz</strong></a>
+          </li>
+          <li class="nav-item mx-5">
+            <p class="nav-link"  (click)="onClickCourse()"><strong>Course</strong></p>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+   
+  <p>Welcome to sign Lanuage </p>
+    <router-outlet></router-outlet>
+  </div>
+  

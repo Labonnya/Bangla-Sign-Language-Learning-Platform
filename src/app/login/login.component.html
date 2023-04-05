@@ -1,0 +1,39 @@
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<div class="container bodyCenter">
+
+  <div class="row">
+
+    <div class="col-sm-6 leftSideBSLImage">
+      <img src="../../assets/sign-language-multiple-person.jpg">
+    </div>
+    <div class="col-sm-6 rightSideConent">
+      <h2>Login : BSL</h2>
+      <p>Login to start teaching & learning everyday! Login credentials can be changed anytime after login.</p>
+      <form>
+        <div class="form-group">
+          <label>Name:</label>
+          <input type="text" class="form-control" name="username" [(ngModel)]="username">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" name="password" [(ngModel)]="password">
+        </div>
+      </form>
+      <button (click)="authenticate()">Submit Login Credentials</button> 
+      <a [routerLink]="['/register']"> New User? Create an Account!</a>
+      <br>
+      <a [routerLink]="['/forgot-password']"> <p>Forgot Password</p> </a>
+
+    </div>
+
+  </div>
+
+  </div>

@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="row ml-5">
+        <div class="col-4">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0 text-center">
+                      <button class="btn btn-link btn-icon" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Make Course<br>
+                        <fa-icon [icon]="['fas', 'plus-square']" class="icon"></fa-icon>
+                        </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <app-form></app-form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0 text-center">
+                      <button class="btn btn-link btn-icon collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Edit Course<br>
+                        <fa-icon [icon]="['fas', 'edit']" class="icon"></fa-icon>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <app-edit-form></app-edit-form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingThree" >
+                    <h2 class="mb-0 text-center">
+                      <button class="btn btn-link btn-icon collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" (click)="onClickView()">
+                        View Course<br>
+                        <fa-icon [icon]="['fas', 'list-check']" class="icon"></fa-icon>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+  

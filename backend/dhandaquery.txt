@@ -1,0 +1,49 @@
+CREATE TABLE IF NOT EXISTS questions (
+    id INTEGER PRIMARY KEY,
+    label TEXT,
+    choice1 TEXT,
+    choice2 TEXT,
+    choice3 TEXT,
+    choice4 TEXT,
+    answer TEXT
+);
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 1, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
+'../../assets/16.jpg', '../../assets/13.jpg');
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 2, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
+'../../assets/16.jpg', '../../assets/13.jpg');
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 3, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
+'../../assets/16.jpg', '../../assets/13.jpg');
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 4, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
+'../../assets/16.jpg', '../../assets/13.jpg');
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 5, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
+'../../assets/16.jpg', '../../assets/13.jpg');
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 6, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
+'../../assets/16.jpg', '../../assets/13.jpg');
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 7, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
+'../../assets/16.jpg', '../../assets/13.jpg');
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 8, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
+'../../assets/16.jpg', '../../assets/13.jpg');
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 9, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
+'../../assets/16.jpg', '../../assets/13.jpg');
+
+insert into questions (id, label, choice1, choice2, choice3, choice4, answer)
+values( 10, '১২ এর জন্য ইশারা ভাষা কোনটি?', '../../assets/13.jpg', '../../assets/14.jpg', '../../assets/15.jpg', 
+'../../assets/16.jpg', '../../assets/13.jpg');

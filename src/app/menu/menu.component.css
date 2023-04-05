@@ -1,0 +1,23 @@
+.accordion {
+    width: 300px;
+}
+
+.card {
+    background-color: #51cd78;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.btn-link {
+    color: white;
+    font-weight: 600;
+    text-decoration: none!important;
+}
+  
+  .btn-icon .icon {
+    font-size: 60px; /* adjust the size as needed */
+    margin: auto; /* adjust the spacing between the text and the icon as needed */
+  }
+  

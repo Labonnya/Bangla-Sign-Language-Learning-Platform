@@ -1,0 +1,18 @@
+<ul class="card-container">
+    <li *ngFor="let video of videos; let i = index" class="card mb-5">
+      <ng-container *ngIf="video[0] !== videos[i - 1]?.[0]">
+        <div class="card-header py-2">
+          <h3 class="py-4">{{ video[0] }}</h3>
+          <p *ngIf="!video.showFullDescription" (click)="showMore(i)">{{ video[1] | showWords }} <span class="see-p">See More</span></p>
+          <p *ngIf="video.showFullDescription" (click)="showLess(i)">{{ video[1] }} 
+            <span class="see-p">See Less</span>
+          </p>
+        </div>
+        <div class="card-body">
+          <button class="btn btn-light" (click)="goCourse(video[0])">Go To Course</button>
+          <button class="btn btn-danger mx-3" (click)="onDelete(video[0])" >Delete Course</button>
+        </div>
+      </ng-container>
+    </li>
+  </ul>
+  

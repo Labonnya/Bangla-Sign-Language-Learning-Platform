@@ -1,0 +1,27 @@
+
+.card {
+    width: 600px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.card-header {
+    background-color: #51cd78;
+    color: white;
+}
+
+.card-body {
+    background-color: #a8f1bf;
+    color: white;
+}
+
+.see-p {
+    color: whitesmoke;
+    font-weight: 600;
+    cursor: pointer;
+}
+  
