@@ -2,6 +2,19 @@
 
 This project is a comprehensive video-based platform designed to teach Bangla sign language. It provides an intuitive interface where teachers can create and upload video courses, edit course content, and delete courses if needed. Students can access the courses, watch the instructional videos, and even take quizzes to test their understanding of the material. With this platform, learning Bangla sign language becomes more accessible and interactive for both teachers and students.
 
+# Features
+
+**For teachers:** 
+
+1. Intuitive interface for creating and uploading video courses
+2. Ability to edit course content and delete courses
+   
+**For students:**
+
+1. Access to a variety of Bangla sign language video courses
+2. Interactive instructional videos
+3. Quizzes to test understanding of the material
+
  # Video Demonstration 
 https://drive.google.com/file/d/13g6VfXSDUd6pocumOKPHHr8zE86ingkt/view?usp=sharing
 
