@@ -2,8 +2,10 @@
 
 This project is a comprehensive video-based platform designed to teach Bangla sign language. It provides an intuitive interface where teachers can create and upload video courses, edit course content, and delete courses if needed. Students can access the courses, watch the instructional videos, and even take quizzes to test their understanding of the material. With this platform, learning Bangla sign language becomes more accessible and interactive for both teachers and students.
 
-Google Drive Link for video - https://drive.google.com/file/d/13g6VfXSDUd6pocumOKPHHr8zE86ingkt/view?usp=sharing
+ # Video Demonstration 
+https://drive.google.com/file/d/13g6VfXSDUd6pocumOKPHHr8zE86ingkt/view?usp=sharing
 
+#Screenshots
 ![Screenshot (688)](https://github.com/Labonnya/sign-video-master/assets/75426550/857f3961-8e05-493b-89db-a18351c69214)
 
 
