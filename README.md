@@ -5,7 +5,7 @@ This project is a comprehensive video-based platform designed to teach Bangla si
  # Video Demonstration 
 https://drive.google.com/file/d/13g6VfXSDUd6pocumOKPHHr8zE86ingkt/view?usp=sharing
 
-#Screenshots
+# Screenshots
 ![Screenshot (688)](https://github.com/Labonnya/sign-video-master/assets/75426550/857f3961-8e05-493b-89db-a18351c69214)
 
 
